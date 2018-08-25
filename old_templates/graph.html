@@ -1,0 +1,27 @@
+<!doctype html>
+<title>Medical Malpratice Trends in the United States of America</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css'
+)}}'>
+<div class=page>
+  <h1>Medical Malpractice Trends in {{ state }}:</h1>
+  <div class=metanav>
+
+  
+    <h4>
+      In the following graph you can see the medical malpractice trends of {{ state }} along with other states which performed similarly in regards to lowering the rate of medical malpratice cases. Click on the legends to bring forward the muted states for a closer look.
+    </h4>
+    
+  <head>
+    <!-- <link rel="stylesheet" href='{ url_for('static', filename='style.css')}' type="text/css" /> -->
+    <link rel="stylesheet" href="//cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" type="text/css" />
+    <script type="text/javascript" src="//cdn.pydata.org/bokeh/release/bokeh-0.12.16.js"></script>
+    {{ script | safe }}
+  </head>
+  <body>
+    <div class=page>
+       {{ div | safe }}
+    </div>
+  </body>
+  </div>
+</div>
+</html>

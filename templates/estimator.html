@@ -1,0 +1,593 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>MedMalPrax by Derya Meral</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index" class="logo">introspect</a>
+					<nav id="nav">
+						<a href="index">Home</a>
+						<a href="about">For State Policy Makers</a>
+						<a href="estimator">For Lawyers and Patients</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<header class="major special">
+						<h1>Estimating Your Potential Malpractice Payout</h1>
+						<p>Please complete the form as thoroughly as possible and press submit to receive an estimate at the bottom of the page. You can leave a question blank if you're uncertain about the answer, but the more information you provide us, the more accurate our estimate will be.</p>
+					</header>
+
+					<!-- Text -->
+						<section>
+							<div class="12u$">
+									<form id='estimator_form' method='post' action='estimator' >
+									<p>
+								<div class="select-wrapper">
+									<select name="workstat" id="workstat">
+<option value="WORKSTAT_unknown">- In which state did the patient receive treatment? -</option>
+<option value="WORKSTAT_AA">Armed Forces - Americas</option>
+<option value="WORKSTAT_AE">Armed Forces - Europe</option>
+<option value="WORKSTAT_AK">Alaska</option>
+<option value="WORKSTAT_AL">Alabama</option>
+<option value="WORKSTAT_AP">Armed Forces - Pacific</option>
+<option value="WORKSTAT_AR">Arkansas</option>
+<option value="WORKSTAT_AS">American Samoa</option>
+<option value="WORKSTAT_AZ">Arizona</option>
+<option value="WORKSTAT_CA">California</option>
+<option value="WORKSTAT_CO">Colorado</option>
+<option value="WORKSTAT_CT">Connecticut</option>
+<option value="WORKSTAT_DC">District of Columbia</option>
+<option value="WORKSTAT_DE">Delaware</option>
+<option value="WORKSTAT_FL">Florida</option>
+<option value="WORKSTAT_FM">Federated States of Micronesia</option>
+<option value="WORKSTAT_GA">Georgia</option>
+<option value="WORKSTAT_GU">Guam</option>
+<option value="WORKSTAT_HI">Hawaii</option>
+<option value="WORKSTAT_IA">Iowa</option>
+<option value="WORKSTAT_ID">Idaho</option>
+<option value="WORKSTAT_IL">Illinois</option>
+<option value="WORKSTAT_IN">Indiana</option>
+<option value="WORKSTAT_KS">Kansas</option>
+<option value="WORKSTAT_KY">Kentucky</option>
+<option value="WORKSTAT_LA">Louisiana</option>
+<option value="WORKSTAT_MA">Massachusetts</option>
+<option value="WORKSTAT_MD">Maryland</option>
+<option value="WORKSTAT_ME">Maine</option>
+<option value="WORKSTAT_MH">Marshall Islands</option>
+<option value="WORKSTAT_MI">Michigan</option>
+<option value="WORKSTAT_MN">Minnesota</option>
+<option value="WORKSTAT_MO">Missouri</option>
+<option value="WORKSTAT_MP">Northern Marianas</option>
+<option value="WORKSTAT_MS">Mississippi</option>
+<option value="WORKSTAT_MT">Montana</option>
+<option value="WORKSTAT_NC">North Carolina</option>
+<option value="WORKSTAT_ND">North Dakota</option>
+<option value="WORKSTAT_NE">Nebraska</option>
+<option value="WORKSTAT_NH">New Hampshire</option>
+<option value="WORKSTAT_NJ">New Jersey</option>
+<option value="WORKSTAT_NM">New Mexico</option>
+<option value="WORKSTAT_NV">Nevada</option>
+<option value="WORKSTAT_NY">New York</option>
+<option value="WORKSTAT_OH">Ohio</option>
+<option value="WORKSTAT_OK">Oklahoma</option>
+<option value="WORKSTAT_OR">Oregon</option>
+<option value="WORKSTAT_PA">Pennsylvania</option>
+<option value="WORKSTAT_PR">Puerto Rico</option>
+<option value="WORKSTAT_PW">Palau</option>
+<option value="WORKSTAT_RI">Rhode Island</option>
+<option value="WORKSTAT_SC">South Carolina</option>
+<option value="WORKSTAT_SD">South Dakota</option>
+<option value="WORKSTAT_TN">Tennessee</option>
+<option value="WORKSTAT_TX">Texas</option>
+<option value="WORKSTAT_UT">Utah</option>
+<option value="WORKSTAT_VA">Virginia</option>
+<option value="WORKSTAT_VI">Virgin Islands</option>
+<option value="WORKSTAT_VT">Vermont</option>
+<option value="WORKSTAT_WA">Washington</option>
+<option value="WORKSTAT_WI">Wisconsin</option>
+<option value="WORKSTAT_WV">West Virginia</option>
+<option value="WORKSTAT_WY">Wyoming</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="licnfeld" id="licnfeld">
+<option value="LICNFELD_unknown">- What is the license field of the practitioner you're suing? -</option>
+<option value="LICNFELD_10">Allopathic Physician (MD)</option>
+<option value="LICNFELD_15">Physician Resident (MD)</option>
+<option value="LICNFELD_20">Osteopathic Physician (DO)</option>
+<option value="LICNFELD_25">Osteopathic Physician Resident (DO)</option>
+<option value="LICNFELD_30">Dentist</option>
+<option value="LICNFELD_35">Dental Resident</option>
+<option value="LICNFELD_50">Pharmacist</option>
+<option value="LICNFELD_55">Pharmacy Intern </option>
+<option value="LICNFELD_60">Pharmacist, Nuclear</option>
+<option value="LICNFELD_70">Pharmacy Assistant</option>
+<option value="LICNFELD_75">Pharmacy Technician </option>
+<option value="LICNFELD_76">Other Pharmacy Service Occupation</option>
+<option value="LICNFELD_100">Registered Nurse</option>
+<option value="LICNFELD_110">Nurse Anesthetist</option>
+<option value="LICNFELD_120">Nurse Midwife</option>
+<option value="LICNFELD_130">Nurse Practitioner</option>
+<option value="LICNFELD_134">Doctor of Nursing Practice </option>
+<option value="LICNFELD_135">Advanced Nurse Practitioner </option>
+<option value="LICNFELD_140">LPN or Vocational Nurse</option>
+<option value="LICNFELD_141">Clinical Nurse Specialist </option>
+<option value="LICNFELD_142">Other Nurse Occupation</option>
+<option value="LICNFELD_148">Certified Nurse Aide/Nursing Assistant </option>
+<option value="LICNFELD_150">Nurse Aide/Nursing Assistant</option>
+<option value="LICNFELD_160">Home Health Aide (Homemaker)</option>
+<option value="LICNFELD_165">Health Care Aide/Direct Care Worker </option>
+<option value="LICNFELD_170">Psychiatric Technician</option>
+<option value="LICNFELD_175">Certified or Qualified Medication Aide </option>
+<option value="LICNFELD_176">Other Aide Occupation</option>
+<option value="LICNFELD_200">Dietitian</option>
+<option value="LICNFELD_210">Nutritionist</option>
+<option value="LICNFELD_211">Other Dietitian/Nutritionist Occupation</option>
+<option value="LICNFELD_250">EMT, Basic</option>
+<option value="LICNFELD_260">EMT, Cardiac/Critical Care</option>
+<option value="LICNFELD_270">EMT, Intermediate/Critical Care</option>
+<option value="LICNFELD_280">EMT, Paramedic</option>
+<option value="LICNFELD_281">Other Emergency Medical Technician Occupation</option>
+<option value="LICNFELD_300">Clinical Social Worker</option>
+<option value="LICNFELD_350">Podiatrist</option>
+<option value="LICNFELD_370">Clinical Psychologist </option>
+<option value="LICNFELD_371">Psychologist </option>
+<option value="LICNFELD_372">School Psychologist </option>
+<option value="LICNFELD_373">Psychological Asst., Assoc., Examiner</option>
+<option value="LICNFELD_374">Other Psychologist/Psychological Assistant Occupation</option>
+<option value="LICNFELD_400">Audiologist</option>
+<option value="LICNFELD_402">Art/Recreation Therapist</option>
+<option value="LICNFELD_405">Massage Therapist</option>
+<option value="LICNFELD_410">Occupational Therapist</option>
+<option value="LICNFELD_420">Occup. Therapy Assistant</option>
+<option value="LICNFELD_430">Physical Therapist</option>
+<option value="LICNFELD_440">Phys. Therapy Assistant</option>
+<option value="LICNFELD_450">Rehabilitation Therapist</option>
+<option value="LICNFELD_460">Speech/Language Pathologist</option>
+<option value="LICNFELD_470">Hearing Aid/Instrument Specialist</option>
+<option value="LICNFELD_471">Other Speech, Language and Hearing Service Occupation </option>
+<option value="LICNFELD_500">Medical Technologist </option>
+<option value="LICNFELD_501">Medical or Clinical Lab Technician/Technologist </option>
+<option value="LICNFELD_502">Medical/Clinical Lab Technician </option>
+<option value="LICNFELD_503">Surgical Technologist/Assistant </option>
+<option value="LICNFELD_504">Surgical Assistant </option>
+<option value="LICNFELD_505">Cytotechnologist </option>
+<option value="LICNFELD_510">Nuclear Med. Technologist</option>
+<option value="LICNFELD_520">Rad. Therapy Technologist</option>
+<option value="LICNFELD_530">Radiologic Technician/Technologist</option>
+<option value="LICNFELD_540">X-Ray Technician or Operator </option>
+<option value="LICNFELD_550">Limited X-Ray Machine Operator </option>
+<option value="LICNFELD_551">Other Technologist/Technician</option>
+<option value="LICNFELD_600">Acupuncturist</option>
+<option value="LICNFELD_601">Athletic Trainer </option>
+<option value="LICNFELD_603">Chiropractor</option>
+<option value="LICNFELD_604">Chiropractic Assistant </option>
+<option value="LICNFELD_605">Other Chiropractic Occupation</option>
+<option value="LICNFELD_606">Dental Assistant</option>
+<option value="LICNFELD_607">Dental Therapist/Dental Health Aide </option>
+<option value="LICNFELD_609">Dental Hygienist</option>
+<option value="LICNFELD_612">Denturist</option>
+<option value="LICNFELD_613">Other Dental Occupation</option>
+<option value="LICNFELD_615">Homeopath</option>
+<option value="LICNFELD_618">Medical Assistant</option>
+<option value="LICNFELD_621">Counselor, Mental Health</option>
+<option value="LICNFELD_624">Midwife, Lay (Non-Nurse)</option>
+<option value="LICNFELD_627">Naturopath</option>
+<option value="LICNFELD_630">Ocularist</option>
+<option value="LICNFELD_633">Optician</option>
+<option value="LICNFELD_636">Optometrist</option>
+<option value="LICNFELD_637">Other Eye and Vision Service Occupation</option>
+<option value="LICNFELD_639">Orthotics/Prosthetics Fitter</option>
+<option value="LICNFELD_642">Physician Assistant</option>
+<option value="LICNFELD_645">Phys. Asst., Osteopathic</option>
+<option value="LICNFELD_647">Perfusionist </option>
+<option value="LICNFELD_648">Podiatric Assistant</option>
+<option value="LICNFELD_649">Other Podiatric Service Occupation</option>
+<option value="LICNFELD_651">Prof. Counselor</option>
+<option value="LICNFELD_652">Sex Offender Counselor </option>
+<option value="LICNFELD_653">Pastoral Counselor</option>
+<option value="LICNFELD_654">Prof. Cnslr., Alcohol</option>
+<option value="LICNFELD_657">Prof. Cnslr., Family/Marriage</option>
+<option value="LICNFELD_658">Other Rehabilitative, Respiratory and Restorative Service Occupation</option>
+<option value="LICNFELD_660">Addictions Counselor</option>
+<option value="LICNFELD_661">Marriage and Family Therapist </option>
+<option value="LICNFELD_662">Art Therapist </option>
+<option value="LICNFELD_663">Respiratory Therapist</option>
+<option value="LICNFELD_664">Recreation Therapist </option>
+<option value="LICNFELD_665">Dance Therapist </option>
+<option value="LICNFELD_666">Resp. Therapy Technician</option>
+<option value="LICNFELD_667">Music Therapist </option>
+<option value="LICNFELD_668">Other Behavioral Health Occupation </option>
+<option value="LICNFELD_699">Other Health Care Pract, Not Classified </option>
+<option value="LICNFELD_752">Adult Care Facility Administrator </option>
+<option value="LICNFELD_755">Hospital Administrator </option>
+<option value="LICNFELD_758">Health Care Facility Administrator </option>
+<option value="LICNFELD_759">Assisted Living Facility Administrator </option>
+<option value="LICNFELD_800">Researcher, Clinical </option>
+<option value="LICNFELD_810">Insurance Agent/Broker </option>
+<option value="LICNFELD_812">Insurance Broker </option>
+<option value="LICNFELD_820">Corporate Officer </option>
+<option value="LICNFELD_822">Business Manager </option>
+<option value="LICNFELD_830">Business Owner </option>
+<option value="LICNFELD_840">Salesperson </option>
+<option value="LICNFELD_850">Accountant </option>
+<option value="LICNFELD_853">Bookkeeper</option>
+<option value="LICNFELD_899">Other Individual, Not Classified </option>
+<option value="LICNFELD_998">Subject of Report Not Reportable (missing value)</option>
+<option value="LICNFELD_999">Unspecified or Unknown</option>
+<option value="LICNFELD_1301">General/Acute Care Hospital</option>
+<option value="LICNFELD_1302">Psychiatric Hospital</option>
+<option value="LICNFELD_1303">Rehabilitation Hospital</option>
+<option value="LICNFELD_1304">Federal Hospital</option>
+<option value="LICNFELD_1307">Psychiatric Unit</option>
+<option value="LICNFELD_1308">Rehabilitation Unit</option>
+<option value="LICNFELD_1310">Laboratory/CLIA Laboratory</option>
+<option value="LICNFELD_1320">Health Insurance Company/Provider</option>
+<option value="LICNFELD_1331">Health Maintenance Organization</option>
+<option value="LICNFELD_1335">Preferred Provider Organization</option>
+<option value="LICNFELD_1336">Provider Sponsored Organization</option>
+<option value="LICNFELD_1338">Religious, Fraternal Benefit Society Plan</option>
+<option value="LICNFELD_1342">Blood Bank</option>
+<option value="LICNFELD_1343">Durable Medical Equipment Supplier</option>
+<option value="LICNFELD_1344">Eyewear Equipment Supplier</option>
+<option value="LICNFELD_1345">Pharmacy</option>
+<option value="LICNFELD_1346">Pharmaceutical Manufacturer</option>
+<option value="LICNFELD_1347">Biological Products Manufacturer</option>
+<option value="LICNFELD_1348">Organ Procurement Organization</option>
+<option value="LICNFELD_1349">Portable X-Ray Supplier</option>
+<option value="LICNFELD_1351">Fiscal/Billing/Management Agent</option>
+<option value="LICNFELD_1352">Purchasing Service</option>
+<option value="LICNFELD_1353">Nursing/Health Care Staffing Service</option>
+<option value="LICNFELD_1361">Chiropractic Group/Practice</option>
+<option value="LICNFELD_1362">Dental Group/Practice</option>
+<option value="LICNFELD_1363">Optician/Optometric Group/Practice</option>
+<option value="LICNFELD_1364">Podiatric Group/Practice</option>
+<option value="LICNFELD_1365">Medical Group/Practice</option>
+<option value="LICNFELD_1366">Mental Health/Substance Abuse Group/Facility</option>
+<option value="LICNFELD_1367">Physical/Occupational Therapy Group/Practice</option>
+<option value="LICNFELD_1370">Research Center/Facility</option>
+<option value="LICNFELD_1381">Adult Day Care Facility</option>
+<option value="LICNFELD_1382">Hospice/Hospice Care Provider</option>
+<option value="LICNFELD_1383">Intermed. Care Fclty For Intellectually Disabled/Substance Abuse</option>
+<option value="LICNFELD_1386">Residential Treatment Facility/Program</option>
+<option value="LICNFELD_1388">Outpatient Rehab. Fclty./Comprehensive Outptnt. Rehab. Fclty</option>
+<option value="LICNFELD_1389">Nursing Facility/Skilled Nursing Facility</option>
+<option value="LICNFELD_1390">Ambulance Service/Transportation Company</option>
+<option value="LICNFELD_1391">Ambulatory Surgical Center</option>
+<option value="LICNFELD_1392">Ambulatory Clinic/Center</option>
+<option value="LICNFELD_1393">Home Health Agency/Organization</option>
+<option value="LICNFELD_1394">Health Cntr/Fedrlly. Qualified Hlth Cntr./Cmmnty Hlth Cntr.</option>
+<option value="LICNFELD_1395">Mental Health Center/Community Mental Health Center</option>
+<option value="LICNFELD_1396">Rural Health Clinic</option>
+<option value="LICNFELD_1397">Mammography Service Provider</option>
+<option value="LICNFELD_1398">End Stage Renal Disease Facility</option>
+<option value="LICNFELD_1399">Radiology/Imaging Center</option>
+<option value="LICNFELD_1999">Other Type not classified - specify</option>
+<option value="LICNFELD_9999">Org. Type not specified</option>
+
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="practage" id="practage">
+<option value="PRACTAGE_unknown">- What is this practitioner's age? -</option>
+<option value="PRACTAGE_10">Ages 19 and under</option>
+<option value="PRACTAGE_20">Ages 20 through 29</option>
+<option value="PRACTAGE_30">Ages 30 through 39</option>
+<option value="PRACTAGE_40">Ages 40 through 49</option>
+<option value="PRACTAGE_50">Ages 50 through 59</option>
+<option value="PRACTAGE_60">Ages 60 through 69</option>
+<option value="PRACTAGE_70">Ages 70 through 79</option>
+<option value="PRACTAGE_80">Ages 80 through 89</option>
+<option value="PRACTAGE_90">Ages 90 through 99</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="algnnatr" id="algnnatr">
+<option value="ALGNNATR_unknown">- Which of these areas describe your malpractice allegation best? -</option>
+<option value="ALGNNATR_1">Diagnosis Related</option>
+<option value="ALGNNATR_10">Anesthesia Related</option>
+<option value="ALGNNATR_20">Surgery Related</option>
+<option value="ALGNNATR_30">Medication Related</option>
+<option value="ALGNNATR_40">IV & Blood Products Related</option>
+<option value="ALGNNATR_50">Obstetrics Related</option>
+<option value="ALGNNATR_60">Treatment Related</option>
+<option value="ALGNNATR_70">Monitoring Related</option>
+<option value="ALGNNATR_80">Equipment/Product Related</option>
+<option value="ALGNNATR_90">Other Miscellaneous</option>
+<option value="ALGNNATR_100">Behavioral Health Related</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="alegatn1" id="alegatn1">
+<option value="ALEGATN1_unknown">- What is the primary malpractice act or omission at hand? -</option>
+<option value="ALEGATN1_100">Failure to Use Aseptic Technique</option>
+<option value="ALEGATN1_101">Failure to Diagnose</option>
+<option value="ALEGATN1_102">Failure to Delay a Case When Indicated</option>
+<option value="ALEGATN1_103">Failure to Identify Fetal Distress</option>
+<option value="ALEGATN1_104">Failure to Treat Fetal Distress</option>
+<option value="ALEGATN1_105">Failure to Medicate</option>
+<option value="ALEGATN1_106">Failure to Monitor</option>
+<option value="ALEGATN1_107">Failure to Order Appropriate Medication</option>
+<option value="ALEGATN1_108">Failure to Order Appropriate Test</option>
+<option value="ALEGATN1_109">Failure to Perform Preoperative Evaluation</option>
+<option value="ALEGATN1_110">Failure to Perform Procedure</option>
+<option value="ALEGATN1_111">Failure to Perform Resuscitation</option>
+<option value="ALEGATN1_112">Failure to Recognize a Complication</option>
+<option value="ALEGATN1_113">Failure to Treat</option>
+<option value="ALEGATN1_200">Delay in Diagnosis</option>
+<option value="ALEGATN1_201">Delay in Performance</option>
+<option value="ALEGATN1_202">Delay in Treatment</option>
+<option value="ALEGATN1_203">Delay in Treatment of Identified Fetal Distress</option>
+<option value="ALEGATN1_300">Administration of Blood or Fluids Problem</option>
+<option value="ALEGATN1_301">Agent Use or Selection Error</option>
+<option value="ALEGATN1_302">Complementary or Alternative Medication Problem</option>
+<option value="ALEGATN1_303">Equipment Utilization Problem</option>
+<option value="ALEGATN1_304">Improper Choice of Delivery Method</option>
+<option value="ALEGATN1_305">Improper Management</option>
+<option value="ALEGATN1_306">Improper Performance</option>
+<option value="ALEGATN1_307">Improperly Performed C-Section</option>
+<option value="ALEGATN1_308">Improperly Performed Vaginal Delivery</option>
+<option value="ALEGATN1_309">Improperly Performed Resuscitation</option>
+<option value="ALEGATN1_310">Improperly Performed Test</option>
+<option value="ALEGATN1_311">Improper Technique</option>
+<option value="ALEGATN1_312">Intubation Problem</option>
+<option value="ALEGATN1_313">Laboratory Error</option>
+<option value="ALEGATN1_314">Pathology Error</option>
+<option value="ALEGATN1_315">Medication Administered via Wrong Route</option>
+<option value="ALEGATN1_316">Patient History, Exam, or Workup Problem</option>
+<option value="ALEGATN1_317">Problems With Patient Monitoring in Recovery</option>
+<option value="ALEGATN1_318">Patient Monitoring Problem</option>
+<option value="ALEGATN1_319">Patient Positioning Problem</option>
+<option value="ALEGATN1_320">Problem with Appliance, Prostheses, Orthotic, Device, etc.</option>
+<option value="ALEGATN1_321">Radiology or Imaging Error</option>
+<option value="ALEGATN1_322">Surgical or Other Foreign Body Retained</option>
+<option value="ALEGATN1_323">Wrong or Misdiagnosis (e.g. Original Diagnosis is Incorrect)</option>
+<option value="ALEGATN1_324">Wrong Dosage Administered</option>
+<option value="ALEGATN1_325">Wrong Dosage Dispensed</option>
+<option value="ALEGATN1_326">Wrong Dosage Ordered of Correct Medication</option>
+<option value="ALEGATN1_327">Wrong Medication Administered</option>
+<option value="ALEGATN1_328">Wrong Medication Dispensed</option>
+<option value="ALEGATN1_329">Wrong Medication Ordered</option>
+<option value="ALEGATN1_330">Wrong Body Part</option>
+<option value="ALEGATN1_331">Wrong Blood Type</option>
+<option value="ALEGATN1_332">Wrong Equipment</option>
+<option value="ALEGATN1_333">Wrong Patient</option>
+<option value="ALEGATN1_334">Wrong Procedure or Treatment</option>
+<option value="ALEGATN1_400">Contraindicated Procedure</option>
+<option value="ALEGATN1_401">Surgical or Procedural Clearance Contraindicated</option>
+<option value="ALEGATN1_402">Unnecessary Procedure</option>
+<option value="ALEGATN1_403">Unnecessary Test</option>
+<option value="ALEGATN1_404">Unnecessary Treatment</option>
+<option value="ALEGATN1_500">Communication Problem Between Practitioners</option>
+<option value="ALEGATN1_501">Failure to Instruct or Communicate with Patient or Family</option>
+<option value="ALEGATN1_502">Failure to Report on Patient Condition</option>
+<option value="ALEGATN1_503">Failure to Respond to Patient</option>
+<option value="ALEGATN1_504">Failure to Supervise</option>
+<option value="ALEGATN1_505">Improper Supervision</option>
+<option value="ALEGATN1_600">Failure/Delay in Admission to Hospital or Institution</option>
+<option value="ALEGATN1_601">Failure/Delay in Referral or Consultation</option>
+<option value="ALEGATN1_602">Premature Discharge from Institution</option>
+<option value="ALEGATN1_603">Altered, Misplaced or Prematurely Destroyed Records</option>
+<option value="ALEGATN1_700">Abandonment</option>
+<option value="ALEGATN1_701">Assault and Battery</option>
+<option value="ALEGATN1_702">Breach of Contract or Warranty</option>
+<option value="ALEGATN1_703">Breach of Patient Confidentiality</option>
+<option value="ALEGATN1_704">Equipment Malfunction</option>
+<option value="ALEGATN1_705">Failure to Conform with Regulation, Statute, or Rule</option>
+<option value="ALEGATN1_706">Failure to Ensure Patient Safety</option>
+<option value="ALEGATN1_707">Failure to Obtain Consent or Lack of Informed Consent</option>
+<option value="ALEGATN1_708">Failure to Protect a Third Party (Failure to Warn, etc.)</option>
+<option value="ALEGATN1_709">Failure to Test Equipment</option>
+<option value="ALEGATN1_710">False Imprisonment</option>
+<option value="ALEGATN1_711">Improper Conduct</option>
+<option value="ALEGATN1_712">Inadequate Utilization Review</option>
+<option value="ALEGATN1_713">Negligent Credentialing</option>
+<option value="ALEGATN1_714">Practitioner with Communicable Disease</option>
+<option value="ALEGATN1_715">Product Liability</option>
+<option value="ALEGATN1_716">Religious Issues</option>
+<option value="ALEGATN1_717">Sexual Misconduct</option>
+<option value="ALEGATN1_718">Third Party Claimant</option>
+<option value="ALEGATN1_719">Vicarious Liability</option>
+<option value="ALEGATN1_720">Wrongful Life/Birth</option>
+<option value="ALEGATN1_899">Cannot Be Determined from Available Records</option>
+<option value="ALEGATN1_999">Allegation – Not Otherwise Classified, Specify</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="alegatn2" id="alegatn2">
+<option value="ALEGATN2_unknown">- What is the secondary malpractice act or omission at hand?  -</option>
+<option value="ALEGATN2_100">Failure to Use Aseptic Technique</option>
+<option value="ALEGATN2_101">Failure to Diagnose</option>
+<option value="ALEGATN2_102">Failure to Delay a Case When Indicated</option>
+<option value="ALEGATN2_103">Failure to Identify Fetal Distress</option>
+<option value="ALEGATN2_104">Failure to Treat Fetal Distress</option>
+<option value="ALEGATN2_105">Failure to Medicate</option>
+<option value="ALEGATN2_106">Failure to Monitor</option>
+<option value="ALEGATN2_107">Failure to Order Appropriate Medication</option>
+<option value="ALEGATN2_108">Failure to Order Appropriate Test</option>
+<option value="ALEGATN2_109">Failure to Perform Preoperative Evaluation</option>
+<option value="ALEGATN2_110">Failure to Perform Procedure</option>
+<option value="ALEGATN2_111">Failure to Perform Resuscitation</option>
+<option value="ALEGATN2_112">Failure to Recognize a Complication</option>
+<option value="ALEGATN2_113">Failure to Treat</option>
+<option value="ALEGATN2_200">Delay in Diagnosis</option>
+<option value="ALEGATN2_201">Delay in Performance</option>
+<option value="ALEGATN2_202">Delay in Treatment</option>
+<option value="ALEGATN2_203">Delay in Treatment of Identified Fetal Distress</option>
+<option value="ALEGATN2_300">Administration of Blood or Fluids Problem</option>
+<option value="ALEGATN2_301">Agent Use or Selection Error</option>
+<option value="ALEGATN2_302">Complementary or Alternative Medication Problem</option>
+<option value="ALEGATN2_303">Equipment Utilization Problem</option>
+<option value="ALEGATN2_304">Improper Choice of Delivery Method</option>
+<option value="ALEGATN2_305">Improper Management</option>
+<option value="ALEGATN2_306">Improper Performance</option>
+<option value="ALEGATN2_307">Improperly Performed C-Section</option>
+<option value="ALEGATN2_308">Improperly Performed Vaginal Delivery</option>
+<option value="ALEGATN2_309">Improperly Performed Resuscitation</option>
+<option value="ALEGATN2_310">Improperly Performed Test</option>
+<option value="ALEGATN2_311">Improper Technique</option>
+<option value="ALEGATN2_312">Intubation Problem</option>
+<option value="ALEGATN2_313">Laboratory Error</option>
+<option value="ALEGATN2_314">Pathology Error</option>
+<option value="ALEGATN2_315">Medication Administered via Wrong Route</option>
+<option value="ALEGATN2_316">Patient History, Exam, or Workup Problem</option>
+<option value="ALEGATN2_317">Problems With Patient Monitoring in Recovery</option>
+<option value="ALEGATN2_318">Patient Monitoring Problem</option>
+<option value="ALEGATN2_319">Patient Positioning Problem</option>
+<option value="ALEGATN2_320">Problem with Appliance, Prostheses, Orthotic, Device, etc.</option>
+<option value="ALEGATN2_321">Radiology or Imaging Error</option>
+<option value="ALEGATN2_322">Surgical or Other Foreign Body Retained</option>
+<option value="ALEGATN2_323">Wrong or Misdiagnosis (e.g. Original Diagnosis is Incorrect)</option>
+<option value="ALEGATN2_324">Wrong Dosage Administered</option>
+<option value="ALEGATN2_325">Wrong Dosage Dispensed</option>
+<option value="ALEGATN2_326">Wrong Dosage Ordered of Correct Medication</option>
+<option value="ALEGATN2_327">Wrong Medication Administered</option>
+<option value="ALEGATN2_328">Wrong Medication Dispensed</option>
+<option value="ALEGATN2_329">Wrong Medication Ordered</option>
+<option value="ALEGATN2_330">Wrong Body Part</option>
+<option value="ALEGATN2_331">Wrong Blood Type</option>
+<option value="ALEGATN2_332">Wrong Equipment</option>
+<option value="ALEGATN2_333">Wrong Patient</option>
+<option value="ALEGATN2_334">Wrong Procedure or Treatment</option>
+<option value="ALEGATN2_400">Contraindicated Procedure</option>
+<option value="ALEGATN2_401">Surgical or Procedural Clearance Contraindicated</option>
+<option value="ALEGATN2_402">Unnecessary Procedure</option>
+<option value="ALEGATN2_403">Unnecessary Test</option>
+<option value="ALEGATN2_404">Unnecessary Treatment</option>
+<option value="ALEGATN2_500">Communication Problem Between Practitioners</option>
+<option value="ALEGATN2_501">Failure to Instruct or Communicate with Patient or Family</option>
+<option value="ALEGATN2_502">Failure to Report on Patient Condition</option>
+<option value="ALEGATN2_503">Failure to Respond to Patient</option>
+<option value="ALEGATN2_504">Failure to Supervise</option>
+<option value="ALEGATN2_505">Improper Supervision</option>
+<option value="ALEGATN2_600">Failure/Delay in Admission to Hospital or Institution</option>
+<option value="ALEGATN2_601">Failure/Delay in Referral or Consultation</option>
+<option value="ALEGATN2_602">Premature Discharge from Institution</option>
+<option value="ALEGATN2_603">Altered, Misplaced or Prematurely Destroyed Records</option>
+<option value="ALEGATN2_700">Abandonment</option>
+<option value="ALEGATN2_701">Assault and Battery</option>
+<option value="ALEGATN2_702">Breach of Contract or Warranty</option>
+<option value="ALEGATN2_703">Breach of Patient Confidentiality</option>
+<option value="ALEGATN2_704">Equipment Malfunction</option>
+<option value="ALEGATN2_705">Failure to Conform with Regulation, Statute, or Rule</option>
+<option value="ALEGATN2_706">Failure to Ensure Patient Safety</option>
+<option value="ALEGATN2_707">Failure to Obtain Consent or Lack of Informed Consent</option>
+<option value="ALEGATN2_708">Failure to Protect a Third Party (Failure to Warn, etc.)</option>
+<option value="ALEGATN2_709">Failure to Test Equipment</option>
+<option value="ALEGATN2_710">False Imprisonment</option>
+<option value="ALEGATN2_711">Improper Conduct</option>
+<option value="ALEGATN2_712">Inadequate Utilization Review</option>
+<option value="ALEGATN2_713">Negligent Credentialing</option>
+<option value="ALEGATN2_714">Practitioner with Communicable Disease</option>
+<option value="ALEGATN2_715">Product Liability</option>
+<option value="ALEGATN2_716">Religious Issues</option>
+<option value="ALEGATN2_717">Sexual Misconduct</option>
+<option value="ALEGATN2_718">Third Party Claimant</option>
+<option value="ALEGATN2_719">Vicarious Liability</option>
+<option value="ALEGATN2_720">Wrongful Life/Birth</option>
+<option value="ALEGATN2_899">Cannot Be Determined from Available Records</option>
+<option value="ALEGATN2_999">Allegation – Not Otherwise Classified, Specify</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="outcome" id="outcome">
+<option value="OUTCOME_unknown">- What is the severity of the alleged malpractice injury? -</option>
+<option value="OUTCOME_1">Emotional Injury Only</option>
+<option value="OUTCOME_2">Insignificant Injury</option>
+<option value="OUTCOME_3">Minor Temporary Injury</option>
+<option value="OUTCOME_4">Major Temporary Injury</option>
+<option value="OUTCOME_5">Minor Permanent Injury</option>
+<option value="OUTCOME_6">Significant Permanent Injury</option>
+<option value="OUTCOME_7">Major Permanent Injury</option>
+<option value="OUTCOME_8">Quadriplegic, Brain Damage, Lifelong Care</option>
+<option value="OUTCOME_9">Death</option>
+<option value="OUTCOME_10">Cannot Be Determined from Available Records</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="paytype" id="paytype">
+<option value="PAYTYPE_unknown">- Do you expect to settle or go to court? -</option>
+<option value="PAYTYPE_B">Before Settlement</option>
+<option value="PAYTYPE_J">Judgment</option>
+<option value="PAYTYPE_O">Other</option>
+<option value="PAYTYPE_S">Settlement</option>
+<option value="PAYTYPE_U">Unknown or Before Settlement</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="ptage" id="ptage">
+<option value="PTAGE_unknown">- What is the age of the patient? -</option>
+<option value="PTAGE_-1">Fetus</option>
+<option value="PTAGE_0">Under 1 year</option>
+<option value="PTAGE_1">Age 1 through 9</option>
+<option value="PTAGE_10">Age 10 through 19</option>
+<option value="PTAGE_20">Age 20 through 29</option>
+<option value="PTAGE_30">Age 30 through 39</option>
+<option value="PTAGE_40">Age 40 through 49</option>
+<option value="PTAGE_50">Age 50 through 59</option>
+<option value="PTAGE_60">Age 60 through 69</option>
+<option value="PTAGE_70">Age 70 through 79</option>
+<option value="PTAGE_80">Age 80 through 89</option>
+<option value="PTAGE_90">Ages 90 through 99</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="ptgender" id="ptgender">
+<option value="PTGENDER_unknown">- What is the gender of the patient? -</option>
+<option value="PTGENDER_F">Female</option>
+<option value="PTGENDER_M">Male</option>
+<option value="PTGENDER_U">Unknown</option>
+									</select>
+								</div>
+								<div class="select-wrapper">
+									<select name="pttype" id="pttype">
+<option value="PTTYPE_unknown">- Was the patient an inpatient, outpatient, or both? -</option>
+<option value="PTTYPE_B">Both</option>
+<option value="PTTYPE_I">Inpatient</option>
+<option value="PTTYPE_O">Outpatient</option>
+<option value="PTTYPE_U">Unknown</option>
+									</select>
+      									</p>
+      									<p>
+    									<input type='submit' value='Submit' />
+      									</p>
+    									</form>
+								</div>
+							</div>
+				</div>
+			</section>
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Your Payout Estimate: {{ payout }}</h2>
+						<!--<p> You selected: {{ selections }}
+						</p>-->
+					</header>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
